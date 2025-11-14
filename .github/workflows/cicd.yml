@@ -63,3 +63,13 @@ jobs:
         cache: maven
     - name: Unit Test Cases
       run: mvn test
+
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Show Basic Message
+      run: echo "Build Has been Successfull !"
+      
