@@ -20,6 +20,6 @@ public class App
         // Use of Factory Design Pattern
         FactoryDesign.getFactoryDesign("CIRCLE");
         FactoryDesign.getFactoryDesign("RECTANGLE");
-        System.out.println("Hello from Main Reset Change.");
+
     }
 }
