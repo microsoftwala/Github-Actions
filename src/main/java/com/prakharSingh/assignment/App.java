@@ -20,7 +20,7 @@ public class App
         // Use of Factory Design Pattern
         FactoryDesign.getFactoryDesign("CIRCLE");
         FactoryDesign.getFactoryDesign("RECTANGLE");
-        System.out.println("Added this for Git Reset.");
+        System.out.println("Added this for Git Reset and merge.");
 
     }
 }
