@@ -19,6 +19,7 @@ jobs:
     # Shared Runner Provide by Github
     runs-on: ubuntu-latest
 
+
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
@@ -33,6 +34,7 @@ jobs:
   security-check:
     # Shared Runner Provide by Github
     runs-on: ubuntu-latest
+    needs: compile
 
     steps:
     - uses: actions/checkout@v4
