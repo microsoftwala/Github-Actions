@@ -81,7 +81,7 @@ jobs:
     needs: build
 
     steps:
-    - name: Runs basic Java 
+    - name: Runs basic Python
       run: print(" Print Python message")
       shell: python
  
