@@ -75,3 +75,13 @@ jobs:
       run: echo "Build Has been Successfull !"
     - name: Show Magic Output 
       run: echo "Magic Output Hai."
+
+  python-basic-task:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+    - name: Runs basic Java 
+      run: print(" Print Python message")
+      shell: python
+ 
