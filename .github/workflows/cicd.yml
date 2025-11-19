@@ -78,7 +78,7 @@ jobs:
 
   python-basic-task:
     runs-on: ubuntu-latest
-    needs: test
+    needs: build
 
     steps:
     - name: Runs basic Java 
