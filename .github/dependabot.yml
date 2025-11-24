@@ -1,6 +1,6 @@
 version: 2
 updates:
-  # Maven dependencies (pom.xml)
+  # Maven dependencies in pom.xml
   - package-ecosystem: "maven"
     directory: "/"                # Location of pom.xml
     schedule:
