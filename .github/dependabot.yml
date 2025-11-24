@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # Maven dependencies (pom.xml)
+  - package-ecosystem: "maven"
+    directory: "/"                # Location of pom.xml
+    schedule:
+      interval: "weekly"          # Options: daily, weekly, monthly
+    open-pull-requests-limit: 5   # Max PRs Dependabot will open at once
+    target-branch: "main"         # Branch to merge updates into
